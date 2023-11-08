@@ -16,14 +16,14 @@ import java.util.List;
  * @author Nhu Y
  */
 public class SanPhamDAO extends QuanLyVatLieuXayDungDAO<SanPham, String>{
-     String INSERT_SQL = "INSERT INTO SanPham (MaSanPham,TenSanPham,Hinh,Loai,GiaNhap,GiaXuat,SoLuong) VALUES (?,?,?,?,?,?,?)";
+    String INSERT_SQL = "INSERT INTO SanPham (MaSanPham,TenSanPham,Hinh,Loai,GiaNhap,GiaXuat,SoLuong) VALUES (?,?,?,?,?,?,?)";
     String UPDATE_SQL = "UPDATE SanPham SET TenSanPham =?,Hinh =?,Loai=?,GiaNhap=?,GiaXuat=?,SoLuong=? WHERE MaSanPham=?";
-    String DELETE_SQL = "DELETE FROM SanPham WHERE ID=?";
+    String DELETE_SQL = "DELETE FROM SanPham WHERE MaSanPham=?";
     String SELECT_ALL_SQL = "SELECT * FROM SanPham";
     String SELECT_BY_ID_SQL = "SELECT * FROM SanPham WHERE MaSanPham= ?";
-    String SORT_DECS = "SELECT * FROM SanPham WHERE isDelete = 0 ORDER BY ID DESC";
-    String SORT_ASC = "SELECT * FROM SanPham WHERE isDelete = 0 ORDER BY ID ASC";
-    String FIND_ID_BY_NAME = "SELECT ID FROM SanPham WHERE TenKhoaHoc = ?";
+    String SORT_DECS = "SELECT * FROM SanPham WHERE isDelete = 0 ORDER BY MaSanPham DESC";
+    String SORT_ASC = "SELECT * FROM SanPham WHERE isDelete = 0 ORDER BY MaSanPham ASC";
+    String FIND_ID_BY_NAME = "SELECT MaSanPham FROM SanPham WHERE TenSanPham = ?";
     public static String SELECT_BY_KEYWORD_SQL = "SELECT * FROM SanPham WHERE (TenSanPham LIKE ? )";
 
     @Override
