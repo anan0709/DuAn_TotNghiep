@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.demojavaswing.utils;
+package com.poly.utils;
 
 import java.awt.Image;
 import java.io.File;
@@ -15,13 +15,10 @@ import javax.swing.ImageIcon;
 
 /**
  *
- * @author Admin
+ * @author Nhu Y
  */
 public class XImage {
-     /*
-     * Ảnh biểu tượng của ứng dụng, xuất hiện trên mọi cửa sổ
-     */
-    public static Image getAppIcon() {
+     public static Image getAppIcon() {
         String file = "/com/demojavaswimg/icons/fpt.png";
         return new ImageIcon(XValidate.class.getResource(file)).getImage();
     }
