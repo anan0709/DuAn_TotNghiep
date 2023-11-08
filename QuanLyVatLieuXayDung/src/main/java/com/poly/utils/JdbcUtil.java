@@ -2,21 +2,21 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.poly.utils;
+package com.demojavaswing.utils;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import com.demojavaswing.entity.DienGiamPhi;
+import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  *
- * @author Nhu Y
+ * @author ADMIN
  */
 public class JdbcUtil {
-      static String Driver = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
-    static String dburl = "jdbc:sqlserver://localhost:1433;databaseName=quanlydonoithat;encrypt=true;trustServerCertificate=true";
+
+    static String Driver = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
+    static String dburl = "jdbc:sqlserver://localhost:1433;databaseName=QuanLyTrungTamTinHoc;encrypt=true;trustServerCertificate=true";
     static String user = "sa";
     static String pass = "123";
 
