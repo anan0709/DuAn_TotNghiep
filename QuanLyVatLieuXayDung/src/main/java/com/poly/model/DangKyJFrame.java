@@ -28,6 +28,16 @@ public class DangKyJFrame extends javax.swing.JFrame {
 
         jPanel1 = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jTextField1 = new javax.swing.JTextField();
+        jTextField3 = new javax.swing.JTextField();
+        jTextField4 = new javax.swing.JTextField();
+        jButton1 = new javax.swing.JButton();
+        jCheckBox1 = new javax.swing.JCheckBox();
+        jPasswordField1 = new javax.swing.JPasswordField();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -35,25 +45,76 @@ public class DangKyJFrame extends javax.swing.JFrame {
         jPanel1.setLayout(null);
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         org.openide.awt.Mnemonics.setLocalizedText(jLabel3, org.openide.util.NbBundle.getMessage(DangKyJFrame.class, "DangKyJFrame.jLabel3.text")); // NOI18N
         jPanel1.add(jLabel3);
-        jLabel3.setBounds(260, 10, 109, 30);
+        jLabel3.setBounds(270, 10, 109, 30);
 
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        org.openide.awt.Mnemonics.setLocalizedText(jLabel2, org.openide.util.NbBundle.getMessage(DangKyJFrame.class, "DangKyJFrame.jLabel2.text")); // NOI18N
+        jPanel1.add(jLabel2);
+        jLabel2.setBounds(100, 70, 80, 16);
+
+        jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        org.openide.awt.Mnemonics.setLocalizedText(jLabel4, org.openide.util.NbBundle.getMessage(DangKyJFrame.class, "DangKyJFrame.jLabel4.text")); // NOI18N
+        jPanel1.add(jLabel4);
+        jLabel4.setBounds(100, 130, 60, 16);
+
+        jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+        org.openide.awt.Mnemonics.setLocalizedText(jLabel5, org.openide.util.NbBundle.getMessage(DangKyJFrame.class, "DangKyJFrame.jLabel5.text")); // NOI18N
+        jPanel1.add(jLabel5);
+        jLabel5.setBounds(100, 190, 50, 16);
+
+        jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
+        org.openide.awt.Mnemonics.setLocalizedText(jLabel6, org.openide.util.NbBundle.getMessage(DangKyJFrame.class, "DangKyJFrame.jLabel6.text")); // NOI18N
+        jPanel1.add(jLabel6);
+        jLabel6.setBounds(100, 260, 50, 16);
+
+        jTextField1.setText(org.openide.util.NbBundle.getMessage(DangKyJFrame.class, "DangKyJFrame.jTextField1.text")); // NOI18N
+        jPanel1.add(jTextField1);
+        jTextField1.setBounds(220, 70, 280, 22);
+
+        jTextField3.setText(org.openide.util.NbBundle.getMessage(DangKyJFrame.class, "DangKyJFrame.jTextField3.text")); // NOI18N
+        jPanel1.add(jTextField3);
+        jTextField3.setBounds(220, 190, 280, 22);
+
+        jTextField4.setText(org.openide.util.NbBundle.getMessage(DangKyJFrame.class, "DangKyJFrame.jTextField4.text")); // NOI18N
+        jPanel1.add(jTextField4);
+        jTextField4.setBounds(220, 260, 280, 22);
+
+        jButton1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        org.openide.awt.Mnemonics.setLocalizedText(jButton1, org.openide.util.NbBundle.getMessage(DangKyJFrame.class, "DangKyJFrame.jButton1.text")); // NOI18N
+        jPanel1.add(jButton1);
+        jButton1.setBounds(270, 340, 200, 40);
+
+        jCheckBox1.setForeground(new java.awt.Color(255, 255, 255));
+        org.openide.awt.Mnemonics.setLocalizedText(jCheckBox1, org.openide.util.NbBundle.getMessage(DangKyJFrame.class, "DangKyJFrame.jCheckBox1.text")); // NOI18N
+        jPanel1.add(jCheckBox1);
+        jCheckBox1.setBounds(220, 300, 120, 20);
+
+        jPasswordField1.setText(org.openide.util.NbBundle.getMessage(DangKyJFrame.class, "DangKyJFrame.jPasswordField1.text")); // NOI18N
+        jPanel1.add(jPasswordField1);
+        jPasswordField1.setBounds(220, 130, 280, 22);
+
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/banner5.jpg"))); // NOI18N
         org.openide.awt.Mnemonics.setLocalizedText(jLabel1, org.openide.util.NbBundle.getMessage(DangKyJFrame.class, "DangKyJFrame.jLabel1.text")); // NOI18N
         jPanel1.add(jLabel1);
-        jLabel1.setBounds(0, 0, 641, 500);
+        jLabel1.setBounds(0, 0, 640, 430);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 637, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 637, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 494, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 530, Short.MAX_VALUE)
         );
 
         pack();
@@ -95,8 +156,18 @@ public class DangKyJFrame extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jButton1;
+    private javax.swing.JCheckBox jCheckBox1;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JPasswordField jPasswordField1;
+    private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField jTextField3;
+    private javax.swing.JTextField jTextField4;
     // End of variables declaration//GEN-END:variables
 }

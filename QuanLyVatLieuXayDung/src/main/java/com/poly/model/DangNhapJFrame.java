@@ -27,6 +27,12 @@ public class DangNhapJFrame extends javax.swing.JFrame {
     private void initComponents() {
 
         jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jPasswordField1 = new javax.swing.JPasswordField();
+        jTextField1 = new javax.swing.JTextField();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -35,11 +41,44 @@ public class DangNhapJFrame extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         org.openide.awt.Mnemonics.setLocalizedText(jLabel2, org.openide.util.NbBundle.getMessage(DangNhapJFrame.class, "DangNhapJFrame.jLabel2.text")); // NOI18N
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(210, 10, 160, 32);
+        jLabel2.setBounds(230, 20, 160, 32);
 
+        jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
+        org.openide.awt.Mnemonics.setLocalizedText(jLabel3, org.openide.util.NbBundle.getMessage(DangNhapJFrame.class, "DangNhapJFrame.jLabel3.text")); // NOI18N
+        getContentPane().add(jLabel3);
+        jLabel3.setBounds(110, 80, 110, 20);
+
+        jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        org.openide.awt.Mnemonics.setLocalizedText(jLabel4, org.openide.util.NbBundle.getMessage(DangNhapJFrame.class, "DangNhapJFrame.jLabel4.text")); // NOI18N
+        getContentPane().add(jLabel4);
+        jLabel4.setBounds(110, 170, 70, 20);
+
+        jPasswordField1.setText(org.openide.util.NbBundle.getMessage(DangNhapJFrame.class, "DangNhapJFrame.jPasswordField1.text")); // NOI18N
+        getContentPane().add(jPasswordField1);
+        jPasswordField1.setBounds(110, 200, 370, 40);
+
+        jTextField1.setText(org.openide.util.NbBundle.getMessage(DangNhapJFrame.class, "DangNhapJFrame.jTextField1.text")); // NOI18N
+        getContentPane().add(jTextField1);
+        jTextField1.setBounds(110, 110, 370, 40);
+
+        jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+        org.openide.awt.Mnemonics.setLocalizedText(jLabel5, org.openide.util.NbBundle.getMessage(DangNhapJFrame.class, "DangNhapJFrame.jLabel5.text")); // NOI18N
+        getContentPane().add(jLabel5);
+        jLabel5.setBounds(110, 250, 120, 20);
+
+        jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
+        org.openide.awt.Mnemonics.setLocalizedText(jLabel6, org.openide.util.NbBundle.getMessage(DangNhapJFrame.class, "DangNhapJFrame.jLabel6.text")); // NOI18N
+        getContentPane().add(jLabel6);
+        jLabel6.setBounds(430, 250, 50, 20);
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/wepik-export-20231108142252Lqnj.jpeg"))); // NOI18N
         org.openide.awt.Mnemonics.setLocalizedText(jLabel1, org.openide.util.NbBundle.getMessage(DangNhapJFrame.class, "DangNhapJFrame.jLabel1.text")); // NOI18N
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(0, 0, 580, 310);
+        jLabel1.setBounds(0, 0, 580, 370);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -82,5 +121,11 @@ public class DangNhapJFrame extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JPasswordField jPasswordField1;
+    private javax.swing.JTextField jTextField1;
     // End of variables declaration//GEN-END:variables
 }
